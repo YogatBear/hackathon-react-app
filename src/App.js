@@ -10,8 +10,8 @@ const App = () => {
     id: '1',
     name: 'Default Store',
     description: 'This is a default store loaded on application start.',
-    imageUrl: 'path/to/default/store/image.jpg',
-    backdropUrl: 'path/to/default/store/backdrop.jpg'
+    imageUrl: 'https://i0.wp.com/www.cellact.com/wp-content/uploads/2018/09/icon.png?fit=288%2C300&ssl=1',
+    backdropUrl: 'https://i0.wp.com/www.cellact.com/wp-content/uploads/2018/09/header123.png?fit=206%2C69&ssl=1'
   };
 
   const [stores, setStores] = useState([defaultStore]);
